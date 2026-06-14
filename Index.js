@@ -12,7 +12,7 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
-  const { TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, RETELL_API_KEY } = process.env;
+  const { 8277263328:AAHavyHZP1l6YgZGJ7ypwnFdookYcT-2QLw, 6595638236, key_8f23bb88d096c9b340e07c988331 } = process.env;
 
   if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID) {
     console.error('Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID');
